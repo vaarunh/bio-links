@@ -94,3 +94,31 @@ h6 {
 	  background-repeat: no-repeat;
 	  background-position: 50% 50%;
   }
+
+a{
+    color: #ffffff;
+}
+  a:hover::before{
+    transform: translateY(10px) scaleX(0.6) scaleY(0.8);
+    filter: blur(10px);
+}
+
+a:hover::nth-child(1){
+    color: #c32aa3;
+    text-shadow: 0 0 30px #c32aa3;
+}
+
+a:hover::nth-child(2){
+    color: #25d366;
+    text-shadow: 0 0 30px #25d366;
+}
+
+a:hover::nth-child(3){
+    color: #1da1f2;
+    text-shadow: 0 0 30px #1da1f2;
+}
+
+a:hover::nth-child(4){
+    color: #7289da;
+    text-shadow: 0 0 30px #7289da;
+}
